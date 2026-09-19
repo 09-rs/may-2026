@@ -1,4 +1,6 @@
-on: hub 
+name: This pipeline will deploy to multiple env
+
+on:
   push:
     branches:
       - main
@@ -20,4 +22,3 @@ jobs:
     steps:
       - name: Deploying the application
         run: echo "Deploying the application on ${{ matrix.rolling }}"
-        
