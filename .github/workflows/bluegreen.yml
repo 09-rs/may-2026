@@ -35,4 +35,3 @@ jobs:
         run: echo "Health Check server2"
         
         
-Create new file blue-green-deployment.yml and commit and monitor the deployment
